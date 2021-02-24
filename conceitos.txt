@@ -1,0 +1,10 @@
+Conceitos importantes :
+Por que usar o React ?
+-Reativo, se mexe enquanto o usuário está mexendo.
+-Performático.
+-Dividido em componentes.
+-Javascript dentro do HTML.
+
+-SPA (Single Page Application) - Página totalmente dependente de Javascript, não mt boa para SEO, mas é a básica em React, sendo uma aplicação de uma página e bem performática.
+-SSR (Server Side Rendering) - Next.js - Utilizado para transformar a página completamente dependente de Javascript em uma página HTML, CSS e JS automaticamente. Melhora o SEO, e os robots. 
+-SSG (Static Side Generation) - Next.js e Gatsby - Transforma uma página que não é atualizada o tempo todo em uma página estática de HTML, CSS e JS automaticamente. Funciona para não precisar ficar pedindo a página toda vez para o backend, criando uma página e salvando ela para mostrar para várias pessoas em um período de tempo.
