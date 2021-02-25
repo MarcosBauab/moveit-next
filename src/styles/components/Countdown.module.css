@@ -20,7 +20,7 @@
     text-align: center;
 }
 .countdownContainer > div span{
-    flex:1 ;
+    flex: 1;
 }
 .countdownContainer > div span:first-child{
     border-right: 1px solid #f0f1f3;
@@ -53,7 +53,33 @@
     font-weight: 600;
 
     transition: background-color 0.2s;
+
+    outline: none;
 }
-.countdownButton:hover{
+.countdownButton:not([disabled]):hover{
     background-color: var(--blue-dark);
+}
+.stopCountdown{
+    background-color: var(--red);
+}
+.stopCountdown:not([disabled]):hover{
+    background-color: #c93a52;
+}
+.countdownButton[disabled]{
+    background-color: var(--white);
+    color: var(--text);
+    cursor: not-allowed;
+}
+@media (max-height : 780px){
+    .countdownContainer > div{
+        font-size: 7rem;
+    }
+    .countdownContainer > span{
+        font-size: 5rem;    
+    }
+    .countdownButton{
+        height: 4rem;
+        margin-top: 2rem;
+        font-size: 1.2rem;
+    }
 }
