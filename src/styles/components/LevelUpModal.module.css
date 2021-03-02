@@ -20,3 +20,28 @@
     text-align: center;
     position: relative;
 }
+.container header{
+    font-size: 8.75rem;
+    font-weight: 600;
+    color: var(--blue);
+    background: url('/icons/levelup.svg') no-repeat center;
+    background-size: contain;
+}
+.container strong{
+    font-size: 2.25rem;
+    color: var(--title);
+}
+.container p{
+    font-size: 1.25rem;
+    color: var(--title);
+    margin-top: 0.25rem;
+}
+.container button{
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    background: transparent;
+    border: 0;
+    /*para a img ficar no centro do outline*/
+    font-size: 0px;
+}
