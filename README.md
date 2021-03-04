@@ -18,7 +18,7 @@ Versão 1.0 lançada na Vercel, segue o link [mova.se](https://movase-teal.verce
 
 ## Instalação
 
-```sh
+~~~sh
 # Para clonar o repositório
 git clone https://github.com/MarcosBauab/moveit-next
 
@@ -27,7 +27,7 @@ cd moveit-next
 
 # E instale as dependências pelo yarn
 yarn
-```
+~~~
 
 ## Para rodar
 ```sh
