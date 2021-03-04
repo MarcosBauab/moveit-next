@@ -27,7 +27,7 @@ export function Countdown(){
                 </div>
             </div>
             
-            { hasFinished ? (//if ternário sem else
+            { hasFinished ? (
                 <button disabled className={styles.countdownButton}>
                     Ciclo encerrado
                 </button>

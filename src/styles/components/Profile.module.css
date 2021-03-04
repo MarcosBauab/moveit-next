@@ -22,3 +22,8 @@
 .profileContainer div p img{
     margin-right: 0.5rem;
 }
+@media (max-height : 780px){
+    .profileContainer div strong{
+        font-size: 1.3rem;
+    }
+}
